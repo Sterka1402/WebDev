@@ -3,3 +3,52 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.container {
+  background-color: black;
+  padding: 20px;
+}
+header {
+  width: 1600px;
+  height: 788px;
+  background-image: url("img/bg-image.png");
+  background-position: center;
+}
+.navigation {
+  color: white;
+  height: 95px;
+  display: flex;
+  justify-content: center;
+}
+li{
+  list-style-type: none;
+  flex-shrink: 0;
+}
+a{
+  text-decoration: none;
+}
+
+.head{
+  display: flex;
+}
+
+h1{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 4.5px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
