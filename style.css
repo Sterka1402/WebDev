@@ -9,24 +9,28 @@ body {
   font-style: normal;
 }
 
-.container {
-  background-color: black;
-  margin: 22px 0;
-}
-header {
-  width: 1600px;
+.header-wrapper {
+  width: auto;
   height: 788px;
   background-image: url("img/bg-image.png");
-  background-position: center;
+  background-position: cover;
 }
+
+.container {
+  width: 1062px;
+  margin: 0 auto;
+}
+
 .navigation {
   font-size: 14px;
   line-height: 140%;
   color: #FFFFFF;
   height: 95px;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content:space-evenly;
 }
+
 li{
   list-style-type: none;
   color: #FFFFFF;
@@ -36,32 +40,38 @@ a{
   color: #FFFFFF;
   text-decoration: none;
 }
-.opacity{
+.link{
   opacity: 0.8;
 }
+
+.active {
+  opacity: 1;
+  text-decoration: underline;
+}
+
 .faq {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .head{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
- }
+  margin: 135px auto 183px auto;
+}
 
 h1{
   font-weight: bold;
   font-size: 64px;
   line-height: 75px;
   letter-spacing: 4.5px;
-  /* text-transform: uppercase; */
   color: #FFFFFF;
+
 }
 button {
   color: #FFFFFF;
   background-color: #00AFDB;
   border: none;
+  font-weight: bold;
+  cursor: pointer;
   width: 184px;
   height: 46px;
 }
@@ -72,18 +82,18 @@ p{
   font-size: 18px;
   line-height: 140%;
   text-align: center;
-  margin: 20px 0 30px 0;
+  margin: 20px auto 30px auto;
   color: #FFFFFF;
 }
 
 .icons {
-  /* bottom: 90px; */
+  margin-bottom: 90px;
   width: 170px;
-  height: 20px;
   display: flex;
   cursor: pointer;
-  justify-content: center;
-}
+  justify-content: space-around;
+  /* float: inline-end;
+} */
 
 header {
   display: flex;
