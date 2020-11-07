@@ -13,6 +13,7 @@ body {
   margin: 0 auto;
 }
 .community {
+  background-color: #C4C4C4;
   height: 504px;
   display: flex;
   justify-content: space-between;
