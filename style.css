@@ -12,3 +12,29 @@ body {
   width: 1062px;
   margin: 0 auto;
 }
+.community {
+  height: 504px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.text-community {
+  width: 298px;
+  text-align: center;
+  margin: 0 139px 0 298px;
+}
+
+h3{
+  font-size: 16px;
+  line-height: 20px;
+  color: #373737;
+  margin: 20px 0 10px 0;
+}
+
+p{
+  font-size: 14px;
+  line-height: 140%;
+  color: #4E4E4E;
+}
+
