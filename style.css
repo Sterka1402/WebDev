@@ -33,20 +33,19 @@ h3{
   margin: 20px 0 10px 0;
 }
 
-p{
+.text-community p{
   font-size: 14px;
   line-height: 140%;
   color: #4E4E4E;
 }
 
-.pseudo {
+.slider-nav {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: flex-end;
 }
 
-.pseudo::before{
-  content: '< 1/5 >';
-  margin: 0 269px 20px 0;
+.slider-nav .hover:hover {
+  opacity: 0.5;
 }
 
