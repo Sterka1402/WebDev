@@ -18,7 +18,6 @@ body {
   margin: auto;
   height: 842px;
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-around;
   align-items: center;
 }
@@ -45,14 +44,17 @@ span{
   font-weight: bold;
 }
 
-button {
+.button {
   color: #FFFFFF;
   background-color: #00AFDB;
   border: none;
   font-weight: bold;
   cursor: pointer;
-  width: 184px;
-  height: 46px;
+  padding: 15px 47px;
+}
+
+.button:hover{
+  background-color: #009CC2;
 }
 
 a{
