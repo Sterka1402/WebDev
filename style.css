@@ -93,8 +93,7 @@ p{
   display: flex;
   cursor: pointer;
   justify-content: space-around;
-  /* float: inline-end;
-} */
+} 
 
 header {
   display: flex;
