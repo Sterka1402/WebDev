@@ -6,14 +6,12 @@
 
 body {
   font-family: 'Roboto', Arial, sans-serif;
-  font-style: normal;
 }
 
 .header-wrapper {
-  width: auto;
   height: 788px;
   background-image: url("img/bg-image.png");
-  background-position: cover;
+  background-size: cover;
 }
 
 .container {
@@ -66,14 +64,17 @@ h1{
   color: #FFFFFF;
 
 }
-button {
+.button {
   color: #FFFFFF;
   background-color: #00AFDB;
   border: none;
   font-weight: bold;
   cursor: pointer;
-  width: 184px;
-  height: 46px;
+  padding: 15px 47px;
+}
+
+.button:hover{
+  background-color: #009CC2;
 }
 
 p{
