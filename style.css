@@ -190,3 +190,31 @@ span{
 .store:hover{
   background-color: #009CC2;
 }
+
+footer{
+  background-color: #000000;
+  color: #FFFFFF;
+  height: 185px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 150px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-nav li{
+  margin: 0 5px;
+}
+
+.signature {
+  color: #818181;
+  font-size: 14px;
+  line-height: 140%;
+}
+.footer-logo{
+  flex-shrink: 0;
+}
