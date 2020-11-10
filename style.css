@@ -110,7 +110,7 @@ h1{
   align-items: center;
 }
 
-h2 {
+.back-rappresent h2 {
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
@@ -132,5 +132,61 @@ span{
   font-weight: bold;
 }
 
+.download{
+  background-color: #F5F6F7;
+  margin: 7px 0 0 0;
+}
 
+.downloadtheapp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px;
+}
 
+.downloadtheapp h2{
+  text-align: center;
+  color: #373737;
+} 
+
+.downloadtheapp p{
+  font-size: 14px;
+  line-height: 140%;
+  color: #4E4E4E;
+  width: 480px;
+  height: 40px;
+  margin: 20px 0 30px 0;
+  text-align: center;
+}
+
+.download-store{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stores{
+  display: flex;
+}
+.icon-apple {
+  background-color:  #009CC2;
+  padding: 13px 21px;
+  margin: 0 30px 0 0;
+}
+
+.icon-google {
+  background-color:  #009CC2;
+  padding: 12px 20px 11px 19px;
+}
+
+.store{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 15px 18px;
+  background-color:  #00AFDB;
+  cursor: pointer;
+  transition-duration: .2s;
+}
+.store:hover{
+  background-color: #009CC2;
+}
