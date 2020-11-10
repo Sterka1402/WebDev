@@ -8,6 +8,11 @@ body {
   font-family: 'Roboto', Arial, sans-serif;
 }
 
+:root{
+  --primary-color:  #00AFDB;
+
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -72,7 +77,7 @@ h1{
 }
 .button {
   color: #FFFFFF;
-  background-color: #00AFDB;
+  background-color: var(--primary-color);
   border: none;
   font-weight: bold;
   cursor: pointer;
@@ -132,5 +137,34 @@ span{
   font-weight: bold;
 }
 
+.back-sign-up{
+  color: #FFFFFF;
+  height: 524px;
+  background-image: url("img/pexels-christina-morillo-1181675\ 1.png");
+  background-size: cover;
+  padding: 100px;
+}
 
+.sign {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px;
+}
 
+.sign h2 {
+  color: #FFFFFF;
+  
+}
+
+form{
+  display: flex;
+
+}
+.email {
+  width: 340px;
+  padding: 13px 0 13px 24px;
+}
+form img :hover{
+  background-color:  #009CC2;
+}
