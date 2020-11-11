@@ -77,6 +77,7 @@ h1{
   font-weight: bold;
   cursor: pointer;
   padding: 15px 47px;
+  transition-duration: .2s;
 }
 
 .button:hover{
@@ -189,3 +190,20 @@ h3{
   margin: 82px 0 0 0;
 }
 
+.implement-right-code{
+  background-color: white;
+  margin: auto;
+  height: 842px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.implement-right-code p{
+  font-size: 14px;
+  line-height: 140%;
+  color: #4E4E4E;
+  width: 407px;
+  height: 80px;
+  margin: 20px 0 30px 0;  
+}
