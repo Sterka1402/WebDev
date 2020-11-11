@@ -10,9 +10,15 @@ body {
 }
 
 :root{
-  --bottom-color:  #00AFDB;
-  --bottom-hover:  #009CC2;
+  --button-color:  #00AFDB;
+  --button-hover:  #009CC2;
   --text-color: #FFFFFF;
+  --h-text: #373737;
+  --p-text: #4E4E4E;
+  --back-community-download: #F5F6F7;
+  --back-implement-rappresent: #ffffff;
+  --back-footer: #000000;
+
 }
 
 header {
@@ -79,7 +85,7 @@ h1{
 }
 .button {
   color: var(--text-color);
-  background-color: var(--bottom-color);
+  background-color: var(--button-color);
   border: none;
   font-weight: bold;
   cursor: pointer;
@@ -88,7 +94,7 @@ h1{
 }
 
 .button:hover{
-  background-color: var(--bottom-hover);
+  background-color: var(--button-hover);
 }
 
 .head p{
@@ -105,12 +111,11 @@ h1{
   margin-bottom: 90px;
   width: 170px;
   display: flex;
-  cursor: pointer;
   justify-content: space-around;
 } 
 
 .back-rappresent {
-  background-color: white;
+  background-color: var(--back-implement-rappresent);
   margin: auto;
   height: 842px;
   display: flex;
@@ -124,24 +129,20 @@ h1{
   line-height: 28px;
   width: 367px;
   height: 57px;  
-  color: #373737;
+  color: var(--h-text);
 }
 
 .back-rappresent p{
   font-size: 14px;
   line-height: 140%;
-  color: #4E4E4E;
+  color:var(--p-text);
   width: 407px;
   height: 80px;
   margin: 20px 0 30px 0;
 }
 
-span{
-  font-weight: bold;
-}
-
 .community {
-  background-color: #F5F6F7;
+  background-color: var(--back-community-download);
   height: 504px;
   display: flex;
   overflow:hidden;
@@ -163,14 +164,14 @@ span{
 h3{
   font-size: 16px;
   line-height: 20px;
-  color: #373737;
+  color: var(--h-text);
   margin: 20px 0 10px 0;
 }
 
 .text-community p{
   font-size: 14px;
   line-height: 140%;
-  color: #4E4E4E;
+  color: var(--p-text);
 }
 
 .images {
@@ -191,6 +192,8 @@ h3{
 .slider-nav button{
   border: none;
   margin: 0 10px;
+  font-size: 18px;
+  color: var(--h-text);
 }
 
 .slider-nav .hover:hover {
@@ -205,7 +208,7 @@ h3{
 }
 
 .implement-right-code{
-  background-color: white;
+  background-color: var(--back-implement-rappresent);
   margin: auto;
   height: 842px;
   display: flex;
@@ -216,7 +219,7 @@ h3{
 .implement-right-code p{
   font-size: 14px;
   line-height: 140%;
-  color: #4E4E4E;
+  color: var(--p-text);
   width: 407px;
   height: 80px;
   margin: 20px 0 30px 0;  
@@ -244,7 +247,6 @@ h3{
 form{
   display: flex;
   margin-top: 30px;
-
 }
 
 form button{
@@ -254,21 +256,22 @@ form button{
 .email {
   width: 340px;
   padding: 13px 0 13px 24px;
+  border: none;
 }
 
 .check-icon{
-  background-color: var(--bottom-color);
+  background-color: var(--button-color);
   padding: 16px 25px;
   transition-duration: .2s;
 }
 
 .check-icon:hover{
-  background-color: var(--bottom-hover);
+  background-color: var(--button-hover);
   cursor: pointer;
 }
 
 .download{
-  background-color: #F5F6F7;
+  background-color: var(--back-community-download);
   margin: 7px 0 0 0;
 }
 
@@ -281,13 +284,13 @@ form button{
 
 .downloadtheapp h2{
   text-align: center;
-  color: #373737;
+  color: var(--h-text);
 } 
 
 .downloadtheapp p{
   font-size: 14px;
   line-height: 140%;
-  color: #4E4E4E;
+  color: var(--p-text);
   width: 480px;
   height: 40px;
   margin: 20px 0 30px 0;
@@ -299,44 +302,49 @@ form button{
   align-items: center;
   justify-content: center;
 }
-.stores{
-  display: flex;
-}
 
 .store{
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
-  padding: 6.5px 0 13.2px 18px;
-  background-color: var(--bottom-color);
+  padding-left: 10px; 
+  background-color: var(--button-color);
   cursor: pointer;
   transition-duration: .2s;
   margin: 0 30px 0 0;
-}
-.store:hover{
-  background-color: var(--bottom-hover);
+  height: 46px;
+  display: flex;
+  align-items: center;
 }
 
+.store:hover{
+  background-color: var(--button-hover);
+}
 
 .apple::after {
   content: url(img/icon-apple.png);
-  background-color: var(--bottom-hover);
-  padding: 13px 21px ;
-  text-align: end;
+  background-color: var(--button-hover);
+  padding: 0px 10px;
+  height: 46px;
+  justify-content: center;
   margin-left: 18px;
-  
+  display: flex;
+  align-items: center;
 }
 
 .google::after {
   content: url(img/icon-android.png);
-  background-color:  var(--bottom-hover);
-  padding: 16px 20px 12.8px 19px;
+  background-color:  var(--button-hover);
+  height: 46px;
+  padding: 0px 10px;
   margin-left: 17px;
+  display: flex;
+  align-items: center;
 }
 
 
 footer{
-  background-color: #000000;
+  background-color: var(--back-footer);
   color: var(--text-color);
   height: 185px;
   display: flex;
