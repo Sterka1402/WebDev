@@ -326,6 +326,7 @@ form button{
   background-color: var(--button-hover);
   padding: 0px 10px;
   height: 46px;
+  width: 46px;
   justify-content: center;
   margin-left: 18px;
   display: flex;
@@ -336,10 +337,12 @@ form button{
   content: url(img/icon-android.png);
   background-color:  var(--button-hover);
   height: 46px;
+  width: 46px;
   padding: 0px 10px;
   margin-left: 17px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 
